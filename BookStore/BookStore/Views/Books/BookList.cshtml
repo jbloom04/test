@@ -1,0 +1,53 @@
+﻿@model IEnumerable<BookStore.Models.Book>
+
+@{
+    ViewBag.Title = "BookList";
+}
+
+<h2>BookList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p id="demo"></p>
+<button onclick="myFunction()">Click me</button>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.year)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.author)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.year)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.author)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.title }) |
+            @Html.ActionLink("Details", "Details", new {id = item.title}) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
+<script>
+    function myFunction() {
+        //document.getElementById("demo").innerHTML = "Hello World";
+        $("demo").innerHTML = "Hello World";
+    }
+</script>

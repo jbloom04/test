@@ -1,0 +1,11 @@
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\bin\Debug\test.exe.config
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\bin\Debug\test.exe
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\bin\Debug\test.pdb
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\obj\Debug\test.exe
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\obj\Debug\test.pdb
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\bin\Debug\test.exe.manifest
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\bin\Debug\test.application
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\obj\Debug\test.exe.manifest
+C:\Users\John\Documents\Visual Studio 2017\Projects\test\test\test\obj\Debug\test.application
